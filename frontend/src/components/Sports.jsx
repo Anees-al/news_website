@@ -8,7 +8,7 @@ const Sports = () => {
     useEffect(()=>{
    const fetchNews=async()=>{
     try {
-        const res=await axios.get('http://localhost:4000/api/news/sports');
+        const res=await axios.get('https://news-website-0uuz.onrender.com/api/news/sports');
         setNews(res.data.articles);
     } catch (error) {
         console.log(error)

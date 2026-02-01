@@ -6,7 +6,7 @@ const BUsiness = () => {
     useEffect(()=>{
   const fetchNews=async()=>{
     try {
-        const res=await axios.get('http://localhost:4000/api/news/business');
+        const res=await axios.get('https://news-website-0uuz.onrender.com/api/news/business');
         setNews(res.data.articles);
     } catch (error) {
         console.log(error)

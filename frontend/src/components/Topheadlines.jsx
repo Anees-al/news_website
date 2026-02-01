@@ -7,7 +7,7 @@ const Topheadlines = () => {
    useEffect(()=>{
    const fetchNews=async()=>{
     try {
-         const res=await axios.get('http://localhost:4000/api/news/top-headlines');
+         const res=await axios.get('https://news-website-0uuz.onrender.com/api/news/top-headlines');
          setNews(res.data.articles)
          console.log(res.data.articles)
     } catch (error) {
