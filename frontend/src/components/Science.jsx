@@ -16,7 +16,7 @@ const Science = () => {
     },[])
   return (
     <div className='flex flex-col gap-3 p-10'>
-      <h1 className='text-3xl font-semibold'>Business</h1>
+      <h1 className='text-3xl font-semibold'>Science</h1>
 
       <div className='flex flex-col gap-5 '>
          {
