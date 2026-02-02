@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 
-const BUsiness = () => {
+const Technology = () => {
     const [news,setNews]=useState([]);
     useEffect(()=>{
   const fetchNews=async()=>{
@@ -45,4 +45,4 @@ const BUsiness = () => {
   )
 }
 
-export default BUsiness
+export default Technology
